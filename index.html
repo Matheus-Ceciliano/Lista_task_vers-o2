@@ -31,10 +31,10 @@
                 </div>
                 <label for="">Nome da Tarefa
                 </label>
-                <input type="text" placeholder="Ex. Estudar React">
+                <input type="text" placeholder="Ex. Estudar React" id="input_task">
 
                 <label for="">DATA LIMITE</label>
-                <input type="date">
+                <input type="date" id="data_task">
 
                 <button onclick="addTask()" class="Submit_Task">
                     <i class="fas fa-save"></i> Adicionar à Lista
@@ -50,10 +50,15 @@
                 <span id="contador">0 Tarefas</span>
 
             </div>
+            <div id="list"></div>
         </div>
 
 
     </section>
+
+
+
+    <script src="script.js"></script>
 </body>
 
 </html>

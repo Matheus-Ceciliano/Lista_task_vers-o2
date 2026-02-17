@@ -139,7 +139,7 @@ input[type='text']::placeholder {
 .collum2 {
     flex: 1.2;
     display: flex;
-    justify-content: space-between;
+
     flex-direction: column;
 
 }
@@ -149,7 +149,7 @@ input[type='text']::placeholder {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    max-width: 50%;
+    max-width: 70%;
     align-items: center;
 
 }
@@ -165,6 +165,26 @@ input[type='text']::placeholder {
     font-size: 11px;
     font-weight: bold;
 
+}
+
+.task_zero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 70%;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.task_zero p {
+    color: #9aa0a6;
+
+}
+
+.clipboar {
+    font-size: 120px;
+    color: #9aa0a6;
 }
 
 
