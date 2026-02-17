@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Task</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <section id="container">
+        <div class="collum1">
+            <div class="titulo">
+
+                <h1>Master Task</h1>
+
+                <p>Gerencie suas tarefas com um toque.
+                </p>
+            </div>
+
+            <div class="input_task">
+
+                <div class="novatask"> <i class="fas fa-plus-circle text-indigo-500 cicle"></i>
+                    <h2>Nova Tarefa</h2>
+                </div>
+                <label for="">Nome da Tarefa
+                </label>
+                <input type="text" placeholder="Ex. Estudar React">
+
+                <label for="">DATA LIMITE</label>
+                <input type="date">
+
+                <button onclick="addTask()" class="Submit_Task">
+                    <i class="fas fa-save"></i> Adicionar à Lista
+                </button>
+            </div>
+
+        </div>
+        <div class="collum2">
+            <div class=" title_List">
+
+                <h2>Sua lista</h2>
+
+                <span id="contador">0 Tarefas</span>
+
+            </div>
+        </div>
+
+
+    </section>
+</body>
+
+</html>
