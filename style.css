@@ -368,6 +368,7 @@ input[type='text']::placeholder {
     .collum1 {
         justify-content: center;
         align-items: center;
+        margin-bottom: 0;
     }
 
 
