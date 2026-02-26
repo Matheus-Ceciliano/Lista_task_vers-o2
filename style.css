@@ -329,6 +329,9 @@ input[type='text']::placeholder {
     color: white;
 }
 
+.coluna2 button {
+    margin-bottom: 5px;
+}
 
 @media(max-width:1177px) {
     .title_List {
