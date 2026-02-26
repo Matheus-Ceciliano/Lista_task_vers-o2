@@ -330,7 +330,7 @@ input[type='text']::placeholder {
 }
 
 .coluna2 button {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 @media(max-width:1177px) {
